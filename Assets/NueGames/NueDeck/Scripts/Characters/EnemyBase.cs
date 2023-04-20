@@ -28,6 +28,7 @@ namespace NueGames.NueDeck.Scripts.Characters
             base.BuildCharacter();
             EnemyCanvas.InitCanvas();
             CharacterStats = new CharacterStats(EnemyCharacterData.MaxHealth,EnemyCanvas);
+            EnemyCanvas.UpdateNameText(EnemyCharacterData.CharacterName);
             CharacterStats.OnDeath += OnDeath;
             CharacterStats.SetCurrentHealth(CharacterStats.CurrentHealth);
             CombatManager.OnAllyTurnStarted += ShowNextAbility;
