@@ -169,6 +169,13 @@ namespace NueGames.NueDeck.Scripts.Managers
             GameManager.PersistentGameplayData.CurrentMana += target;
             UIManager.CombatCanvas.SetPileTexts();
         }
+
+        public void SetManaTo(int target)
+        {
+            GameManager.PersistentGameplayData.CurrentMana = target;
+            UIManager.CombatCanvas.SetPileTexts();
+        }
+
         public void HighlightCardTarget(ActionTargetType targetTypeTargetType)
         {
             switch (targetTypeTargetType)

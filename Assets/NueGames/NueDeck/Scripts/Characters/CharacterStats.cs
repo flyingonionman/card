@@ -66,6 +66,8 @@ namespace NueGames.NueDeck.Scripts.Characters
             StatusDict[StatusType.Poison].DecreaseOverTurn = true;
             StatusDict[StatusType.Poison].OnTriggerAction += DamagePoison;
 
+            StatusDict[StatusType.Fatigue].DecreaseOverTurn = true;
+
             StatusDict[StatusType.Block].ClearAtNextTurn = true;
 
             StatusDict[StatusType.Strength].CanNegativeStack = true;

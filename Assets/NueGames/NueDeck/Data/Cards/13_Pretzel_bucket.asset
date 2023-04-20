@@ -16,7 +16,7 @@ MonoBehaviour:
   cardName: 'Bucket of Pretzel Rods '
   manaCost: 3
   cardSprite: {fileID: 21300000, guid: 277b9ef932f50ac4e84fc168c6bdfb56, type: 3}
-  rarity: 2
+  rarity: 0
   usableWithoutTarget: 0
   exhaustAfterPlay: 1
   cardActionDataList:

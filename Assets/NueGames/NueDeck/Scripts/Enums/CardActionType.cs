@@ -12,6 +12,7 @@
         LifeSteal,
         Stun,
         Exhaust,
-        AddCardToDeck
+        AddCardToDeck,
+        Fatigue
     }
 }

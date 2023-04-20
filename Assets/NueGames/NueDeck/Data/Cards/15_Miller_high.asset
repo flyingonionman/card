@@ -10,35 +10,31 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6903f06e96c43789549f142f8956d64, type: 3}
-  m_Name: 12_Pretzel_rod
+  m_Name: 15_Miller_high
   m_EditorClassIdentifier: 
-  id: 12_Pretzel_rod
-  cardName: Pretzel Rod
+  id: 15_Miller_high
+  cardName: The Champagne of Beers
   manaCost: 0
-  cardSprite: {fileID: 21300000, guid: 18c6c5223c6480446b9ac126f0861eea, type: 3}
-  rarity: 0
+  cardSprite: {fileID: 21300000, guid: 7bccd36b00103d345adc39e9881de6ce, type: 3}
+  rarity: 2
   usableWithoutTarget: 0
   exhaustAfterPlay: 0
   cardActionDataList:
   - cardActionType: 6
     actionTargetType: 1
     cardTargetCardType: {fileID: 0}
-    actionValue: 1
+    actionValue: 5
     actionDelay: 0
-  - cardActionType: 5
+  - cardActionType: 8
     actionTargetType: 1
     cardTargetCardType: {fileID: 0}
     actionValue: 1
     actionDelay: 0
-  - cardActionType: 9
-    actionTargetType: 0
-    cardTargetCardType: {fileID: 0}
-    actionValue: 0
-    actionDelay: 0
   cardDescriptionDataList:
-  - descriptionText: ' Take, eat, this is my body.
+  - descriptionText: 'A high level of sophistication requires an equally sophisticated
+      draught.
 
-      Draw '
+      Gain '
     enableOverrideColor: 0
     overrideColor: {r: 0, g: 0, b: 0, a: 1}
     useModifier: 0
@@ -56,25 +52,7 @@ MonoBehaviour:
     usePrefixOnModifiedValue: 0
     modifiedValuePrefix: '*'
     overrideColorOnValueScaled: 0
-  - descriptionText: '. Gain '
-    enableOverrideColor: 0
-    overrideColor: {r: 0, g: 0, b: 0, a: 1}
-    useModifier: 0
-    modifiedActionValueIndex: 0
-    modiferStats: 0
-    usePrefixOnModifiedValue: 0
-    modifiedValuePrefix: '*'
-    overrideColorOnValueScaled: 0
-  - descriptionText: 
-    enableOverrideColor: 0
-    overrideColor: {r: 0, g: 0, b: 0, a: 1}
-    useModifier: 1
-    modifiedActionValueIndex: 1
-    modiferStats: 0
-    usePrefixOnModifiedValue: 0
-    modifiedValuePrefix: '*'
-    overrideColorOnValueScaled: 0
-  - descriptionText: Mana. ~Jerry~
+  - descriptionText: ' Mana. But you are hungover next turn ~Luka~'
     enableOverrideColor: 0
     overrideColor: {r: 0, g: 0, b: 0, a: 1}
     useModifier: 0
