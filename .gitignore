@@ -1,0 +1,9 @@
+# But not these files...
+
+dev/
+Library/
+Logs/
+Packages/
+ProjectSettings/
+Temp/
+UserSettings/
