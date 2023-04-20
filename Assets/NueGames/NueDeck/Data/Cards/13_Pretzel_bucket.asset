@@ -18,14 +18,17 @@ MonoBehaviour:
   cardSprite: {fileID: 21300000, guid: 277b9ef932f50ac4e84fc168c6bdfb56, type: 3}
   rarity: 2
   usableWithoutTarget: 0
-  exhaustAfterPlay: 0
+  exhaustAfterPlay: 1
   cardActionDataList:
-  - cardActionType: 6
+  - cardActionType: 10
     actionTargetType: 1
-    actionValue: 1
+    cardTargetCardType: {fileID: 11400000, guid: ca026784ce02e9f4492d21acee3ad71b, type: 2}
+    actionValue: 10
     actionDelay: 0
   cardDescriptionDataList:
-  - descriptionText: There was within him a hunger before unknown to any man
+  - descriptionText: 'There was within him a hunger before unknown to any man.
+
+      Add '
     enableOverrideColor: 0
     overrideColor: {r: 0, g: 0, b: 0, a: 1}
     useModifier: 0
@@ -38,6 +41,15 @@ MonoBehaviour:
     enableOverrideColor: 0
     overrideColor: {r: 0, g: 0, b: 0, a: 1}
     useModifier: 1
+    modifiedActionValueIndex: 0
+    modiferStats: 0
+    usePrefixOnModifiedValue: 0
+    modifiedValuePrefix: '*'
+    overrideColorOnValueScaled: 0
+  - descriptionText: ' Pretzel Rods'
+    enableOverrideColor: 0
+    overrideColor: {r: 0, g: 0, b: 0, a: 1}
+    useModifier: 0
     modifiedActionValueIndex: 0
     modiferStats: 0
     usePrefixOnModifiedValue: 0

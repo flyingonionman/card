@@ -17,8 +17,8 @@ MonoBehaviour:
   cardList:
   - {fileID: 11400000, guid: 1e43cdb39f5836b44942f367125cadde, type: 2}
   - {fileID: 11400000, guid: 1e43cdb39f5836b44942f367125cadde, type: 2}
-  - {fileID: 11400000, guid: 1e43cdb39f5836b44942f367125cadde, type: 2}
-  - {fileID: 11400000, guid: 1e43cdb39f5836b44942f367125cadde, type: 2}
+  - {fileID: 11400000, guid: ca026784ce02e9f4492d21acee3ad71b, type: 2}
+  - {fileID: 11400000, guid: d1fcfa541a410e3469b0605336fdb77b, type: 2}
   - {fileID: 11400000, guid: a6e35106e76d97146b0deaf09d33b6d9, type: 2}
   - {fileID: 11400000, guid: a6e35106e76d97146b0deaf09d33b6d9, type: 2}
   - {fileID: 11400000, guid: a6e35106e76d97146b0deaf09d33b6d9, type: 2}

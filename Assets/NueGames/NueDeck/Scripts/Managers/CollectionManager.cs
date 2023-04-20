@@ -121,6 +121,11 @@ namespace NueGames.NueDeck.Scripts.Managers
                 DrawPile.Add(i);
         }
 
+        public void AddToDeck(CardData targetCard){
+            DrawPile.Add(targetCard);
+            
+        }
+
         public void ClearPiles()
         {
             DiscardPile.Clear();

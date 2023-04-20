@@ -11,14 +11,16 @@ namespace NueGames.NueDeck.Scripts.Card
         public readonly CharacterBase TargetCharacter;
         public readonly CharacterBase SelfCharacter;
         public readonly CardData CardData;
+        public readonly CardData CardTargetCard ;
         public readonly CardBase CardBase;
-        public CardActionParameters(float value,CharacterBase target, CharacterBase self,CardData cardData, CardBase cardBase)
+        public CardActionParameters(float value,CharacterBase target, CharacterBase self,CardData cardData, CardBase cardBase, CardData cardTargetCard)
         {
             Value = value;
             TargetCharacter = target;
             SelfCharacter = self;
             CardData = cardData;
             CardBase = cardBase;
+            CardTargetCard = cardTargetCard;
         }
     }
     public abstract class CardActionBase

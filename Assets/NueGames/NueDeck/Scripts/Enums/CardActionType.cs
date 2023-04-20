@@ -12,6 +12,6 @@
         LifeSteal,
         Stun,
         Exhaust,
-        AddXtoDeck
+        AddCardToDeck
     }
 }

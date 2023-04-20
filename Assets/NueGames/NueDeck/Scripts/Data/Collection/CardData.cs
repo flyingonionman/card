@@ -90,19 +90,23 @@ namespace NueGames.NueDeck.Scripts.Data.Collection
     {
         [SerializeField] private CardActionType cardActionType;
         [SerializeField] private ActionTargetType actionTargetType;
+        [SerializeField] private CardData cardTargetCardType;
         [SerializeField] private float actionValue;
         [SerializeField] private float actionDelay;
 
         public ActionTargetType ActionTargetType => actionTargetType;
         public CardActionType CardActionType => cardActionType;
+        public CardData CardData => cardTargetCardType;
         public float ActionValue => actionValue;
         public float ActionDelay => actionDelay;
+        
 
         #region Editor
 
 #if UNITY_EDITOR
         public void EditActionType(CardActionType newType) =>  cardActionType = newType;
         public void EditActionTarget(ActionTargetType newTargetType) => actionTargetType = newTargetType;
+        public void EditCardTargetCard(CardData newTargetCardType) => cardTargetCardType = newTargetCardType;
         public void EditActionValue(float newValue) => actionValue = newValue;
         public void EditActionDelay(float newValue) => actionDelay = newValue;
 

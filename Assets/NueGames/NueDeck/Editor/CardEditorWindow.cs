@@ -288,6 +288,7 @@ namespace NueGames.NueDeck.Editor
                 for (var i = 0; i < CardActionDataList.Count; i++)
                 {
                     var cardActionData = CardActionDataList[i];
+
                     EditorGUILayout.BeginVertical("box", GUILayout.Width(150), GUILayout.MaxHeight(50));
                 
                     EditorGUILayout.BeginHorizontal();
@@ -315,6 +316,11 @@ namespace NueGames.NueDeck.Editor
                         cardActionData.EditActionValue(newActionValue);
                         cardActionData.EditActionTarget(newActionTarget);
                     }
+
+                    
+                    var newActionTargetCard = (CardData)EditorGUILayout.ObjectField("Target Card",cardActionData.CardData,typeof(CardData));
+                    cardActionData.EditCardTargetCard(newActionTargetCard);
+                    
                     
                     var newActionDelay = EditorGUILayout.FloatField("Action Delay: ",cardActionData.ActionDelay);
                     
