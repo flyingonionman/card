@@ -134,9 +134,23 @@ namespace NueGames.NueDeck.Scripts.Managers
             ExhaustPile.Clear();
             HandController.hand.Clear();
         }
+
+        public void ShuffleDeck()
+        {
+            int n = DrawPile.Count;  
+            while (n > 1) {  
+                n--;  
+                int k = Random.Range(0, DrawPile.Count);  
+                CardData value = DrawPile[k];  
+                DrawPile[k] = DrawPile[n];  
+                DrawPile[n] = value;  
+            }  
+
+        }
         #endregion
 
         #region Private Methods
+
         private void ReshuffleDiscardPile()
         {
             foreach (var i in DiscardPile) 

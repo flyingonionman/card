@@ -14,11 +14,11 @@ namespace NueGames.NueDeck.Scripts.Card.CardActions
 
                 for (int i = 0; i < actionParameters.Value; i++) 
                 {
-                    Debug.Log(actionParameters.CardTargetCard.CardName);
                     CollectionManager.AddToDeck(actionParameters.CardTargetCard);
                 }
             }
 
+            CollectionManager.ShuffleDeck();
 
             if (FxManager != null)
                 FxManager.PlayFx(actionParameters.SelfCharacter.transform, FxType.Buff);

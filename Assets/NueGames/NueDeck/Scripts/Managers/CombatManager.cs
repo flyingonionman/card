@@ -204,6 +204,11 @@ namespace NueGames.NueDeck.Scripts.Managers
                     foreach (var currentAlly in CurrentAlliesList)
                         currentAlly.AllyCanvas.SetHighlight(true);
                     break;
+                case ActionTargetType.AggressiveEnemy:
+                    foreach (var currentEnemy in CurrentEnemiesList)
+                        if( currentEnemy.NextAbility.actionList[0].actionType.ToString()== "Attack")
+                            currentEnemy.EnemyCanvas.SetHighlight(true);
+                    break;
                 default:
                     throw new ArgumentOutOfRangeException(nameof(targetTypeTargetType), targetTypeTargetType, null);
             }

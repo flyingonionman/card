@@ -25,4 +25,4 @@ MonoBehaviour:
     actionList:
     - actionType: 0
       minActionValue: 0
-      maxActionValue: 0
+      maxActionValue: 5

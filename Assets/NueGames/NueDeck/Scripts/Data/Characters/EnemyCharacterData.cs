@@ -15,7 +15,7 @@ namespace NueGames.NueDeck.Scripts.Data.Characters
         [Header("Enemy Defaults")] 
         [SerializeField] private EnemyBase enemyPrefab;
         [SerializeField] private bool followAbilityPattern;
-        [SerializeField] private List<EnemyAbilityData> enemyAbilityList;
+        [SerializeField] public List<EnemyAbilityData> enemyAbilityList;
         public List<EnemyAbilityData> EnemyAbilityList => enemyAbilityList;
 
         public EnemyBase EnemyPrefab => enemyPrefab;
@@ -44,7 +44,7 @@ namespace NueGames.NueDeck.Scripts.Data.Characters
         [SerializeField] private string name;
         [SerializeField] private EnemyIntentionData intention;
         [SerializeField] private bool hideActionValue;
-        [SerializeField] private List<EnemyActionData> actionList;
+        [SerializeField] public List<EnemyActionData> actionList;
         public string Name => name;
         public EnemyIntentionData Intention => intention;
         public List<EnemyActionData> ActionList => actionList;
@@ -54,7 +54,7 @@ namespace NueGames.NueDeck.Scripts.Data.Characters
     [Serializable]
     public class EnemyActionData
     {
-        [SerializeField] private EnemyActionType actionType;
+        [SerializeField] public EnemyActionType actionType;
         [SerializeField] private int minActionValue;
         [SerializeField] private int maxActionValue;
         public EnemyActionType ActionType => actionType;

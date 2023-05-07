@@ -28,3 +28,10 @@ MonoBehaviour:
     - actionType: 0
       minActionValue: 5
       maxActionValue: 10
+  - name: Do something
+    intention: {fileID: 11400000, guid: b0b1e7f2f78bb444eb1666e4accf22ee, type: 2}
+    hideActionValue: 0
+    actionList:
+    - actionType: 1
+      minActionValue: 5
+      maxActionValue: 10

@@ -15,14 +15,16 @@ MonoBehaviour:
   deckId: deck_default
   deckName: 
   cardList:
-  - {fileID: 11400000, guid: 1e43cdb39f5836b44942f367125cadde, type: 2}
-  - {fileID: 11400000, guid: 1e43cdb39f5836b44942f367125cadde, type: 2}
-  - {fileID: 11400000, guid: ca026784ce02e9f4492d21acee3ad71b, type: 2}
-  - {fileID: 11400000, guid: d1fcfa541a410e3469b0605336fdb77b, type: 2}
-  - {fileID: 11400000, guid: a6e35106e76d97146b0deaf09d33b6d9, type: 2}
-  - {fileID: 11400000, guid: a6e35106e76d97146b0deaf09d33b6d9, type: 2}
-  - {fileID: 11400000, guid: 12e790b2faa60854f88e43efcd0f9c4c, type: 2}
   - {fileID: 11400000, guid: 5d96ef72fd554324896f7935dc97f7fc, type: 2}
   - {fileID: 11400000, guid: e273fba066541bf49aca70c782a985f0, type: 2}
   - {fileID: 11400000, guid: 1e5671bf6b0f90b428df809497a2f125, type: 2}
   - {fileID: 11400000, guid: e273fba066541bf49aca70c782a985f0, type: 2}
+  - {fileID: 11400000, guid: a6b36ce0182a68d4a92e0c6a9497744b, type: 2}
+  - {fileID: 11400000, guid: b55137cb0cadf6940acb7aa5d8c1e691, type: 2}
+  - {fileID: 11400000, guid: d1fcfa541a410e3469b0605336fdb77b, type: 2}
+  - {fileID: 11400000, guid: 5d96ef72fd554324896f7935dc97f7fc, type: 2}
+  - {fileID: 11400000, guid: ca026784ce02e9f4492d21acee3ad71b, type: 2}
+  - {fileID: 11400000, guid: a6b36ce0182a68d4a92e0c6a9497744b, type: 2}
+  - {fileID: 11400000, guid: a6b36ce0182a68d4a92e0c6a9497744b, type: 2}
+  - {fileID: 11400000, guid: 2f1b941daffa7154caeac6ad4c4987f0, type: 2}
+  - {fileID: 11400000, guid: b1bdc8fb34b39df4793ca2245f0a04bf, type: 2}

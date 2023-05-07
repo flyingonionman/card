@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Player
   m_EditorClassIdentifier: 
   characterID: player_example
-  characterName: Player
+  characterName: Joseph
   characterDescription: Player Description
   maxHealth: 150

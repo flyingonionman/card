@@ -30,6 +30,7 @@ namespace NueGames.NueDeck.Scripts.UI
                     
                     break;
                 case EncounterButtonStatus.Passive:
+                    //for debugging
                     button.interactable = false;
                     break;
                 case EncounterButtonStatus.Completed:

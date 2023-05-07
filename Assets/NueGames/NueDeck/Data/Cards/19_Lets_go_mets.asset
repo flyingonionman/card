@@ -10,23 +10,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6903f06e96c43789549f142f8956d64, type: 3}
-  m_Name: 10_Diet_coke
+  m_Name: 19_Lets_go_mets
   m_EditorClassIdentifier: 
-  id: 11_Diet_coke
-  cardName: Diet coke
-  manaCost: 0
-  cardSprite: {fileID: 21300000, guid: 9e51d5845bc68f8429b0eaf52d2c36cb, type: 3}
-  rarity: 0
-  usableWithoutTarget: 0
-  exhaustAfterPlay: 0
+  id: 19_Lets_go_mets
+  cardName: Let's Go Mets
+  manaCost: 1
+  cardSprite: {fileID: 21300000, guid: d464e067083c4f44abfacc75a8dba325, type: 3}
+  rarity: 4
+  usableWithoutTarget: 1
+  exhaustAfterPlay: 1
   cardActionDataList:
-  - cardActionType: 1
+  - cardActionType: 5
     actionTargetType: 1
     cardTargetCardType: {fileID: 0}
-    actionValue: 10
+    actionValue: 0
     actionDelay: 0
   cardDescriptionDataList:
-  - descriptionText: Told to be the nectar of the gods. Heals
+  - descriptionText: 'Rooting for the underdog can be such a burden...
+
+      (Does
+      nothing ) ~Jerry~'
     enableOverrideColor: 0
     overrideColor: {r: 0, g: 0, b: 0, a: 1}
     useModifier: 0
@@ -35,14 +38,5 @@ MonoBehaviour:
     usePrefixOnModifiedValue: 0
     modifiedValuePrefix: '*'
     overrideColorOnValueScaled: 0
-  - descriptionText: 
-    enableOverrideColor: 0
-    overrideColor: {r: 0, g: 0, b: 0, a: 1}
-    useModifier: 1
-    modifiedActionValueIndex: 0
-    modiferStats: 0
-    usePrefixOnModifiedValue: 0
-    modifiedValuePrefix: '*'
-    overrideColorOnValueScaled: 0
-  specialKeywordsList: 
+  specialKeywordsList: 03000000
   audioType: 0

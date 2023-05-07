@@ -119,6 +119,14 @@ namespace NueGames.NueDeck.Scripts.Card
                         targetList.Add(allEnemies.RandomItem());
                     
                     break;
+                case ActionTargetType.AggressiveEnemy:
+                    foreach (var enemyBase in allEnemies) {
+                        if( enemyBase.NextAbility.actionList[0].actionType.ToString()== "Attack") { 
+                            targetList.Add(enemyBase);
+                        }
+
+                    }
+                    break;
                 case ActionTargetType.RandomAlly:
                     if (allAllies.Count>0)
                         targetList.Add(allAllies.RandomItem());

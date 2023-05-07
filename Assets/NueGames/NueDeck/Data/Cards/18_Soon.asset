@@ -10,23 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6903f06e96c43789549f142f8956d64, type: 3}
-  m_Name: 10_Diet_coke
+  m_Name: 18_Soon
   m_EditorClassIdentifier: 
-  id: 11_Diet_coke
-  cardName: Diet coke
-  manaCost: 0
-  cardSprite: {fileID: 21300000, guid: 9e51d5845bc68f8429b0eaf52d2c36cb, type: 3}
-  rarity: 0
+  id: 17_Soon
+  cardName: Soon
+  manaCost: 1
+  cardSprite: {fileID: 21300000, guid: 3f1c55d3770735a4fb8b275c4707f9ad, type: 3}
+  rarity: 2
   usableWithoutTarget: 0
   exhaustAfterPlay: 0
   cardActionDataList:
-  - cardActionType: 1
-    actionTargetType: 1
+  - cardActionType: 8
+    actionTargetType: 6
     cardTargetCardType: {fileID: 0}
-    actionValue: 10
+    actionValue: 1
     actionDelay: 0
   cardDescriptionDataList:
-  - descriptionText: Told to be the nectar of the gods. Heals
+  - descriptionText: "Enemies who would attack this turn are stunned instead\r. ~Jerry~\n"
     enableOverrideColor: 0
     overrideColor: {r: 0, g: 0, b: 0, a: 1}
     useModifier: 0
@@ -35,14 +35,5 @@ MonoBehaviour:
     usePrefixOnModifiedValue: 0
     modifiedValuePrefix: '*'
     overrideColorOnValueScaled: 0
-  - descriptionText: 
-    enableOverrideColor: 0
-    overrideColor: {r: 0, g: 0, b: 0, a: 1}
-    useModifier: 1
-    modifiedActionValueIndex: 0
-    modiferStats: 0
-    usePrefixOnModifiedValue: 0
-    modifiedValuePrefix: '*'
-    overrideColorOnValueScaled: 0
-  specialKeywordsList: 
+  specialKeywordsList: 03000000
   audioType: 0

@@ -10,15 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2612027158f847538279f7d8f10dff91, type: 3}
-  m_Name: Speck's_Left_Head
+  m_Name: Blextron
   m_EditorClassIdentifier: 
-  characterID: Speck's_Left_Head
-  characterName: Speck's Left Head
-  characterDescription: 'Left head of Speck
-
-'
-  maxHealth: 10
-  enemyPrefab: {fileID: 243822687015991123, guid: 8082d3ec390212f4099166c11828f5b4, type: 3}
+  characterID: Blextron
+  characterName: Blextron
+  characterDescription: Blextron
+  maxHealth: 300
+  enemyPrefab: {fileID: 243822687015991123, guid: 4681027850ef24a47bbe8b4d4ae1969e, type: 3}
   followAbilityPattern: 0
   enemyAbilityList:
   - name: Attack Single
@@ -26,5 +24,12 @@ MonoBehaviour:
     hideActionValue: 0
     actionList:
     - actionType: 0
-      minActionValue: 0
+      minActionValue: 5
+      maxActionValue: 5
+  - name: Work out
+    intention: {fileID: 11400000, guid: b0b1e7f2f78bb444eb1666e4accf22ee, type: 2}
+    hideActionValue: 0
+    actionList:
+    - actionType: 3
+      minActionValue: 5
       maxActionValue: 5
